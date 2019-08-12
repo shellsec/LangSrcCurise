@@ -46,7 +46,7 @@ DJjango是趁下班休息时间抽空学了点，大概看了25小时左右文�
 在 LangSrcCurise 文件夹下依次执行如下命令：
 
 1. python3 manage.py runserver 0:8888
-2. python3 Run_Tasks.py
+
 
 ## 添加用户
 
@@ -77,6 +77,14 @@ DJjango是趁下班休息时间抽空学了点，大概看了25小时左右文�
 	
 
 因为数据任务都是同时在跑，所以比较吃资源，建议线程等数量都设置在4或者以下
+
+## 开启扫描
+
+在 LangSrcCurise 文件夹下依次执行如下命令：
+
+1. python3 Run_Tasks.py
+
+需要管理员权限
 
 ## 后续
 
