@@ -12,10 +12,12 @@ DJjango是趁下班休息时间抽空学了点，大概看了25小时左右文�
 
 # 配置环境
 
+最好是在一个全新的环境安装
+
 1. 安装软件  python3.6     注意必须为 3.6
 2. 执行命令  pip3 install django==2.1.1
-3. Windows  安装Nmap 并添加到系统环境变量,windows可能需要安装目录下 Need_Packages/WinPcap_4_1_3.exe
-3. Linux    安装Nmap 并添加到系统环境变量
+3. Windows  安装Nmap 并添加到系统环境变量,windows安装nmap可能需要安装目录下 Need_Packages/WinPcap_4_1_3.exe 
+3. Linux    安装Nmap 并添加到系统环境变量，linux暂时不能兼任适配，后期维护
 4. 注意     Linux/Windows   必须要以管理员身份启动
 
 **注意：即下方执行python3 run_tasks.py的时候，必须右键以管理员身份启动CMD，然后CMD移动路径到LangSrc资产监控目录下，然后在执行命令 python3 run_tasks.py 如果是 Linux 需要加上SUDO 即 sudo python3 run_tasks.py**

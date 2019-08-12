@@ -253,12 +253,21 @@ def Change_ShowData_Info(Sub_Domains):
         print('[+ DataInfo Collection] 数据整理清洗 : {} --> {}'.format(url,ip))
         try:
             Data_IP = IP.objects.filter(ip=ip)[0]
-            Data_URL = Other_Url.objects.filter(url=url)[0]
-            Show_title = Data_URL.title
-            Show_power = Data_URL.power
-            Show_server = Data_URL.server
-            # 该网站使用的web容器
-            Show_status = Data_URL.status
+            try:
+                Data_URL = Other_Url.objects.filter(url=url)[0]
+                Show_title = Data_URL.title
+                Show_power = Data_URL.power
+                Show_server = Data_URL.server
+                # 该网站使用的web容器
+                Show_status = Data_URL.status
+            except Exception as e:
+                Show_title = 'None'
+                Show_power = 'None'
+                Show_server = 'None'
+                # 该网站使用的web容器
+                Show_status = '404'
+                print('错误代码 [12] {}'.format(str(e)))
+                Error_Log.objects.create(url='清洗数据流程获取数据失败', error='错误代码 [12] {}'.format(str(e)))
 
             Show_servers = Data_IP.servers
             # 开放的端口和服务，字典类型
