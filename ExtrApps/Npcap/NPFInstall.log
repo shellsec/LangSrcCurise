@@ -1,0 +1,456 @@
+﻿[00002AC4] 2019-03-28 15:52:51 --> wmain
+[00002AC4] 2019-03-28 15:52:51     _tmain: executing, argv[0] = C:\Program Files\Npcap\NPFInstall.exe.
+[00002AC4] 2019-03-28 15:52:51     _tmain: executing, argv[1] = -n.
+[00002AC4] 2019-03-28 15:52:51     _tmain: executing, argv[2] = -c.
+[00002AC4] 2019-03-28 15:52:51 --> ClearDriverStore
+[00002AC4] 2019-03-28 15:52:51 --> executeCommand
+[00002AC4] 2019-03-28 15:52:51     executeCommand: executing, strCmd = pnputil.exe -e.
+[00002AC4] 2019-03-28 15:52:51     executeCommand: result = Microsoft PnP 工具
+
+发布名称:             oem4.inf
+驱动程序程序包提供程序: INTEL
+类:                     SD 主适配器
+驱动程序日期和版本: 07/18/1968 10.1.16.3
+签名者姓名:                Microsoft Windows Hardware Compatibility Publisher
+
+发布名称:             oem5.inf
+驱动程序程序包提供程序: INTEL
+类:                     系统设备
+驱动程序日期和版本: 07/18/1968 10.1.16.3
+签名者姓名:                Microsoft Windows Hardware Compatibility Publisher
+
+发布名称:             oem6.inf
+驱动程序程序包提供程序: INTEL
+类:                     系统设备
+驱动程序日期和版本: 07/18/1968 10.1.16.3
+签名者姓名:                Microsoft Windows Hardware Compatibility Publisher
+
+发布名称:             oem7.inf
+驱动程序程序包提供程序: INTEL
+类:                     系统设备
+驱动程序日期和版本: 07/18/1968 10.1.16.3
+签名者姓名:                Microsoft Windows Hardware Compatibility Publisher
+
+发布名称:             oem8.inf
+驱动程序程序包提供程序: INTEL
+类:                     系统设备
+驱动程序日期和版本: 07/18/1968 10.1.16.3
+签名者姓名:                Microsoft Windows Hardware Compatibility Publisher
+
+发布名称:             oem18.inf
+驱动程序程序包提供程序: Intel
+类:                     系统设备
+驱动程序日期和版本: 04/11/2018 1815.12.0.2021
+签名者姓名:                Microsoft Windows Hardware Compatibility Publisher
+
+发布名称:             oem16.inf
+驱动程序程序包提供程序: NVIDIA
+类:                     通用串行总线控制器
+驱动程序日期和版本: 10/27/2017 6.14.13.6904
+签名者姓名:                Microsoft Windows Hardware Compatibility Publisher
+
+发布名称:             oem22.inf
+驱动程序程序包提供程序: NVIDIA
+类:                     通用串行总线控制器
+驱动程序日期和版本: 07/26/2016 6.14.13.6904
+签名者姓名:                Microsoft Windows Hardware Compatibility Publisher
+
+发布名称:             oem24.inf
+驱动程序程序包提供程序: NVIDIA
+类:                     鼠标和其他指针设备
+驱动程序日期和版本: 07/19/2016 8.16.22415.53
+签名者姓名:                Microsoft Windows Hardware Compatibility Publisher
+
+发布名称:             oem25.inf
+驱动程序程序包提供程序: NVIDIA
+类:                     系统设备
+驱动程序日期和版本: 12/27/2016 2.2.2151.6378
+签名者姓名:                Microsoft Windows Hardware Compatibility Publisher
+
+发布名称:             oem19.inf
+驱动程序程序包提供程序: Samsung Electronics Co., Ltd
+类:                     存储控制器
+驱动程序日期和版本: 03/17/2017 2.2.0.1703
+签名者姓名:                Microsoft Windows Hardware Compatibility Publisher
+
+发布名称:             oem29.inf
+驱动程序程序包提供程序: VMware, Inc.
+类:                     系统设备
+驱动程序日期和版本: 05/25/2016 9.8.6.0
+签名者姓名:                Microsoft Windows Hardware Compatibility Publisher
+
+发布名称:             oem26.inf
+驱动程序程序包提供程序: VMware, Inc.
+类:                     通用串行总线控制器
+驱动程序日期和版本: 07/12/2016 4.2.0.0
+签名者姓名:                Microsoft Windows Hardware Compatibility Publisher
+
+发布名称:             oem2.inf
+驱动程序程序包提供程序: Intel
+类:                     网络适配器
+驱动程序日期和版本: 09/29/2017 12.17.8.7
+签名者姓名:                Microsoft Windows Hardware Compatibility Publisher
+
+发布名称:             oem14.inf
+驱动程序程序包提供程序: Realtek Semiconductor Corp.
+类:                     声音、视频和游戏控制器
+驱动程序日期和版本: 01/05/2017 6.0.1.8036
+签名者姓名:                Microsoft Windows Hardware Compatibility Publisher
+
+发布名称:             oem3.inf
+驱动程序程序包提供程序: Intel Corporation
+类:                     蓝牙
+驱动程序日期和版本: 11/15/2018 20.100.0.5
+签名者姓名:                Microsoft Windows Hardware Compatibility Publisher
+
+发布名称:             oem30.inf
+驱动程序程序包提供程序: Xbox
+类:                     网络适配器
+驱动程序日期和版本: 07/11/2017 1.0.46.1
+签名者姓名:                Microsoft Windows Hardware Compatibility Publisher
+
+发布名称:             oem28.inf
+驱动程序程序包提供程序: VMware, Inc.
+类:                     网络适配器
+驱动程序日期和版本: 09/27/2016 4.2.8.0
+签名者姓名:                Microsoft Windows Hardware Compatibility Publisher
+
+发布名称:             oem27.inf
+驱动程序程序包提供程序: VMware, Inc.
+类:                     Network Service
+驱动程序日期和版本: 12/09/2016 4.2.8.0
+签名者姓名:                Microsoft Windows Hardware Compatibility Publisher
+
+发布名称:             oem9.inf
+驱动程序程序包提供程序: Intel
+类:                     网络适配器
+驱动程序日期和版本: 10/31/2017 18.33.11.2
+签名者姓名:                Microsoft Windows Hardware Compatibility Publisher
+
+发布名称:             oem10.inf
+驱动程序程序包提供程序: Intel
+类:                     网络适配器
+驱动程序日期和版本: 10/31/2017 18.33.11.2
+签名者姓名:                Microsoft Windows Hardware Compatibility Publisher
+
+发布名称:             oem11.inf
+驱动程序程序包提供程序: Intel
+类:                     网络适配器
+驱动程序日期和版本: 01/10/2018 19.51.11.2
+签名者姓名:                Microsoft Windows Hardware Compatibility Publisher
+
+发布名称:             oem12.inf
+驱动程序程序包提供程序: Intel
+类:                     网络适配器
+驱动程序日期和版本: 01/10/2018 20.30.1.2
+签名者姓名:                Microsoft Windows Hardware Compatibility Publisher
+
+发布名称:             oem21.inf
+驱动程序程序包提供程序: NVIDIA Corporation
+类:                     声音、视频和游戏控制器
+驱动程序日期和版本: 05/16/2017 1.3.34.27
+签名者姓名:                Microsoft Windows Hardware Compatibility Publisher
+
+发布名称:             oem17.inf
+驱动程序程序包提供程序: NVIDIA Corporation
+类:                     声音、视频和游戏控制器
+驱动程序日期和版本: 10/27/2017 1.3.35.1
+签名者姓名:                Microsoft Windows Hardware Compatibility Publisher
+
+发布名称:             oem23.inf
+驱动程序程序包提供程序: NVIDIA
+类:                     声音、视频和游戏控制器
+驱动程序日期和版本: 05/28/2017 3.90.1.0
+签名者姓名:                Microsoft Windows Hardware Compatibility Publisher
+
+发布名称:             oem20.inf
+驱动程序程序包提供程序: NVIDIA
+类:                     显示适配器
+驱动程序日期和版本: 09/01/2017 22.21.13.8554
+签名者姓名:                NVIDIA Corporation
+
+发布名称:             oem15.inf
+驱动程序程序包提供程序: NVIDIA
+类:                     显示适配器
+驱动程序日期和版本: 10/27/2017 23.21.13.8813
+签名者姓名:                Microsoft Windows Hardware Compatibility Publisher
+
+发布名称:             oem1.inf
+驱动程序程序包提供程序: Microsoft
+类:                     打印机
+驱动程序日期和版本: 06/21/2006 10.0.16299.15
+签名者姓名:                Microsoft Windows
+
+发布名称:             oem0.inf
+驱动程序程序包提供程序: Microsoft
+类:                     打印机
+驱动程序日期和版本: 06/21/2006 10.0.16299.15
+签名者姓名:                Microsoft Windows
+
+发布名称:             oem13.inf
+驱动程序程序包提供程序: Intel? Corporation
+类:                     Intel? Power Sharing Manager
+驱动程序日期和版本: 11/12/2017 4.0.0.0
+签名者姓名:                Microsoft Windows Hardware Compatibility Publisher
+
+发布名称:             oem31.inf
+驱动程序程序包提供程序: Western Digital Technologies
+类:                     WD Drive Management devices
+驱动程序日期和版本: 11/30/2017 1.2.0.0
+签名者姓名:                Microsoft Windows Hardware Compatibility Publisher
+
+.
+[00002AC4] 2019-03-28 15:52:51 <-- executeCommand
+[00002AC4] 2019-03-28 15:52:51 --> getInfNamesFromPnpUtilOutput
+[00002AC4] 2019-03-28 15:52:51 <-- getInfNamesFromPnpUtilOutput
+[00002AC4] 2019-03-28 15:52:51 <-- ClearDriverStore
+[00002AC4] 2019-03-28 15:52:51     _tmain: succeed, nStatus = 0.
+[00002AC4] 2019-03-28 15:52:51 <-- wmain
+[000011DC] 2019-03-28 15:52:51 --> wmain
+[000011DC] 2019-03-28 15:52:51     _tmain: executing, argv[0] = C:\Program Files\Npcap\NPFInstall.exe.
+[000011DC] 2019-03-28 15:52:51     _tmain: executing, argv[1] = -n.
+[000011DC] 2019-03-28 15:52:51     _tmain: executing, argv[2] = -iw.
+[000011DC] 2019-03-28 15:52:51 --> InstallWFPCallout
+[000011DC] 2019-03-28 15:52:51 --> GetWFPCalloutInfFilePath
+[000011DC] 2019-03-28 15:52:51     lpFilename = C:\Program Files\Npcap\NPCAP_wfp.inf
+[000011DC] 2019-03-28 15:52:51 <-- GetWFPCalloutInfFilePath
+[000011DC] 2019-03-28 15:52:52 --> isFileExist
+[000011DC] 2019-03-28 15:52:52     FindFirstFile: succeed, szFileFullPath = C:\Program Files\Npcap\NPCAP_wfp.inf.
+[000011DC] 2019-03-28 15:52:52 <-- isFileExist
+[000011DC] 2019-03-28 15:52:52     InstallHinfSection: executing, szCmd = DefaultInstall 132 C:\Program Files\Npcap\NPCAP_wfp.inf.
+[000011DC] 2019-03-28 15:52:52 <-- InstallWFPCallout
+[000011DC] 2019-03-28 15:52:52     _tmain: succeed, nStatus = 0.
+[000011DC] 2019-03-28 15:52:52 <-- wmain
+[00002EB4] 2019-03-28 15:52:52 --> wmain
+[00002EB4] 2019-03-28 15:52:52     _tmain: executing, argv[0] = C:\Program Files\Npcap\NPFInstall.exe.
+[00002EB4] 2019-03-28 15:52:52     _tmain: executing, argv[1] = -n.
+[00002EB4] 2019-03-28 15:52:52     _tmain: executing, argv[2] = -i.
+[00002EB4] 2019-03-28 15:52:52 --> PacketInstallDriver60
+[00002EB4] 2019-03-28 15:52:52 --> InstallDriver
+[00002EB4] 2019-03-28 15:52:52 --> GetServiceInfFilePath
+[00002EB4] 2019-03-28 15:52:52     lpFilename = C:\Program Files\Npcap\NPCAP.inf
+[00002EB4] 2019-03-28 15:52:52 <-- GetServiceInfFilePath
+[00002EB4] 2019-03-28 15:52:52 --> InstallSpecifiedComponent
+[00002EB4] 2019-03-28 15:52:52 --> HrGetINetCfg
+[00002EB4] 2019-03-28 15:52:52 <-- HrGetINetCfg
+[00002EB4] 2019-03-28 15:52:52 --> HrInstallNetComponent
+[00002EB4] 2019-03-28 15:52:52     bWiFiService = 0.
+[00002EB4] 2019-03-28 15:52:52     HrInstallComponent: executing, szComponentId = INSECURE_NPCAP.
+[00002EB4] 2019-03-28 15:52:52 --> HrInstallComponent
+[00002EB4] 2019-03-28 15:52:55 <-- HrInstallComponent
+[00002EB4] 2019-03-28 15:52:55 <-- HrInstallNetComponent
+[00002EB4] 2019-03-28 15:52:55 --> HrReleaseINetCfg
+[00002EB4] 2019-03-28 15:52:55 <-- HrReleaseINetCfg
+[00002EB4] 2019-03-28 15:52:55 <-- InstallSpecifiedComponent
+[00002EB4] 2019-03-28 15:52:55 <-- InstallDriver
+[00002EB4] 2019-03-28 15:52:55 <-- PacketInstallDriver60
+[00002EB4] 2019-03-28 15:52:55     _tmain: succeed, nStatus = 0.
+[00002EB4] 2019-03-28 15:52:55 <-- wmain
+[000039C4] 2019-03-28 15:52:55 --> wmain
+[000039C4] 2019-03-28 15:52:55     _tmain: executing, argv[0] = C:\Program Files\Npcap\NPFInstall.exe.
+[000039C4] 2019-03-28 15:52:55     _tmain: executing, argv[1] = -n.
+[000039C4] 2019-03-28 15:52:55     _tmain: executing, argv[2] = -il.
+[000039C4] 2019-03-28 15:52:55 --> InstallLoopbackAdapter
+[000039C4] 2019-03-28 15:52:55 --> PrepareRenameLoopbackNetwork2
+[000039C4] 2019-03-28 15:52:55 --> snapshotInterfaceListBeforeInstall
+[000039C4] 2019-03-28 15:52:55 --> executeCommand
+[000039C4] 2019-03-28 15:52:55     executeCommand: executing, strCmd = netsh.exe interface show interface.
+[000039C4] 2019-03-28 15:52:56     executeCommand: result = 
+管理员状态     状态           类型             接口名称
+-------------------------------------------------------------------------
+已禁用            已断开连接          专用               WLAN
+已禁用            已断开连接          专用               VMware Network Adapter VMnet1
+已禁用            已断开连接          专用               VMware Network Adapter VMnet8
+已启用            已连接            专用               以太网
+
+.
+[000039C4] 2019-03-28 15:52:56 <-- executeCommand
+[000039C4] 2019-03-28 15:52:56 --> getInterfaceNamesFromNetshOutput
+[000039C4] 2019-03-28 15:52:56     getInterfaceNamesFromNetshOutput: executing, strInterfaceName = WLAN.
+[000039C4] 2019-03-28 15:52:56     getInterfaceNamesFromNetshOutput: executing, strInterfaceName = VMware Network Adapter VMnet1.
+[000039C4] 2019-03-28 15:52:56     getInterfaceNamesFromNetshOutput: executing, strInterfaceName = VMware Network Adapter VMnet8.
+[000039C4] 2019-03-28 15:52:56     getInterfaceNamesFromNetshOutput: executing, strInterfaceName = 以太网.
+[000039C4] 2019-03-28 15:52:56 <-- getInterfaceNamesFromNetshOutput
+[000039C4] 2019-03-28 15:52:56 <-- snapshotInterfaceListBeforeInstall
+[000039C4] 2019-03-28 15:52:56 <-- PrepareRenameLoopbackNetwork2
+[000039C4] 2019-03-28 15:52:56 --> InstallLoopbackDeviceInternal
+[000039C4] 2019-03-28 15:52:56 --> GetLoopbackINFFilePath
+[000039C4] 2019-03-28 15:52:56     SHGetSpecialFolderPath: succeed, strLoopbackInfPath = C:\Windows\inf\netloop.inf.
+[000039C4] 2019-03-28 15:52:56 <-- GetLoopbackINFFilePath
+[000039C4] 2019-03-28 15:52:56 --> cmdInstall
+[000039C4] 2019-03-28 15:52:56 --> getIntDevID
+[000039C4] 2019-03-28 15:52:56     _stscanf_s: iMatched = 1, iDevID = 0.
+[000039C4] 2019-03-28 15:52:56 <-- getIntDevID
+[000039C4] 2019-03-28 15:52:56 --> cmdUpdate
+[000039C4] 2019-03-28 15:52:56     cmdUpdate: failcode = 0.
+[000039C4] 2019-03-28 15:52:56 <-- cmdUpdate
+[000039C4] 2019-03-28 15:52:56     cmdInstall: failcode = 0.
+[000039C4] 2019-03-28 15:52:56 <-- cmdInstall
+[000039C4] 2019-03-28 15:52:56 <-- InstallLoopbackDeviceInternal
+[000039C4] 2019-03-28 15:52:56 --> RecordLoopbackDevice
+[000039C4] 2019-03-28 15:52:56 --> COM::COM
+[000039C4] 2019-03-28 15:52:56 <-- COM::COM
+[000039C4] 2019-03-28 15:52:56 --> NetCfg::NetCfg
+[000039C4] 2019-03-28 15:52:56 <-- NetCfg::NetCfg
+[000039C4] 2019-03-28 15:52:56 --> NetCfg::GetNetworkConfiguration
+[000039C4] 2019-03-28 15:52:56 <-- NetCfg::GetNetworkConfiguration
+[000039C4] 2019-03-28 15:52:56 --> EnumerateComponents
+[000039C4] 2019-03-28 15:52:56 --> getIntDevID
+[000039C4] 2019-03-28 15:52:56     _stscanf_s: iMatched = 0, iDevID = -1.
+[000039C4] 2019-03-28 15:52:56 <-- getIntDevID
+[000039C4] 2019-03-28 15:52:56     INetCfgComponent::GetPnpDevNodeId: executing, pszPndDevNodeId = SWD\MSRRAS\MS_AGILEVPNMINIPORT, iDevID = -1, g_NpcapAdapterID = 0, pszBindName = {0D2040EA-2209-41E3-93EE-E63C3D6A9D4F}.
+[000039C4] 2019-03-28 15:52:56 --> getIntDevID
+[000039C4] 2019-03-28 15:52:56     _stscanf_s: iMatched = 0, iDevID = -1.
+[000039C4] 2019-03-28 15:52:56 <-- getIntDevID
+[000039C4] 2019-03-28 15:52:56     INetCfgComponent::GetPnpDevNodeId: executing, pszPndDevNodeId = SWD\IP_TUNNEL_VBUS\Teredo_Tunnel_Device, iDevID = -1, g_NpcapAdapterID = 0, pszBindName = {19ACF9A5-A9F1-4902-8809-61032ABD6DA1}.
+[000039C4] 2019-03-28 15:52:56 --> getIntDevID
+[000039C4] 2019-03-28 15:52:56     _stscanf_s: iMatched = 0, iDevID = -1.
+[000039C4] 2019-03-28 15:52:56 <-- getIntDevID
+[000039C4] 2019-03-28 15:52:56     INetCfgComponent::GetPnpDevNodeId: executing, pszPndDevNodeId = SWD\MSRRAS\MS_PPTPMINIPORT, iDevID = -1, g_NpcapAdapterID = 0, pszBindName = {20F1BB43-786E-48C8-A208-15CDEA86AEDD}.
+[000039C4] 2019-03-28 15:52:56 --> getIntDevID
+[000039C4] 2019-03-28 15:52:56     _stscanf_s: iMatched = 0, iDevID = -1.
+[000039C4] 2019-03-28 15:52:56 <-- getIntDevID
+[000039C4] 2019-03-28 15:52:56     INetCfgComponent::GetPnpDevNodeId: executing, pszPndDevNodeId = SWD\MSRRAS\MS_PPPOEMINIPORT, iDevID = -1, g_NpcapAdapterID = 0, pszBindName = {268FE55A-6416-4B6C-AD3D-2811D0A3BC13}.
+[000039C4] 2019-03-28 15:52:56 --> getIntDevID
+[000039C4] 2019-03-28 15:52:56     _stscanf_s: iMatched = 0, iDevID = -1.
+[000039C4] 2019-03-28 15:52:56 <-- getIntDevID
+[000039C4] 2019-03-28 15:52:56     INetCfgComponent::GetPnpDevNodeId: executing, pszPndDevNodeId = {5d624f94-8850-40c3-a3fa-a4fd2080baf3}\vwifimp_wfd\4&b8eadeb&0&11, iDevID = -1, g_NpcapAdapterID = 0, pszBindName = {36BA59DB-C449-4479-93C8-51495F386F3B}.
+[000039C4] 2019-03-28 15:52:56 --> getIntDevID
+[000039C4] 2019-03-28 15:52:56     _stscanf_s: iMatched = 0, iDevID = -1.
+[000039C4] 2019-03-28 15:52:56 <-- getIntDevID
+[000039C4] 2019-03-28 15:52:56     INetCfgComponent::GetPnpDevNodeId: executing, pszPndDevNodeId = USB\VID_045E&PID_02FE\460035, iDevID = -1, g_NpcapAdapterID = 0, pszBindName = {3D109FD1-01F9-4F01-9F2D-2837E6A025F3}.
+[000039C4] 2019-03-28 15:52:56 --> getIntDevID
+[000039C4] 2019-03-28 15:52:56     _stscanf_s: iMatched = 0, iDevID = -1.
+[000039C4] 2019-03-28 15:52:56 <-- getIntDevID
+[000039C4] 2019-03-28 15:52:56     INetCfgComponent::GetPnpDevNodeId: executing, pszPndDevNodeId = {5d624f94-8850-40c3-a3fa-a4fd2080baf3}\vwifimp_wfd\4&b8eadeb&0&12, iDevID = -1, g_NpcapAdapterID = 0, pszBindName = {42F3180F-E6D8-4EA7-82C6-EDB4B6281291}.
+[000039C4] 2019-03-28 15:52:56 --> getIntDevID
+[000039C4] 2019-03-28 15:52:56     _stscanf_s: iMatched = 0, iDevID = -1.
+[000039C4] 2019-03-28 15:52:56 <-- getIntDevID
+[000039C4] 2019-03-28 15:52:56     INetCfgComponent::GetPnpDevNodeId: executing, pszPndDevNodeId = SWD\MSRRAS\MS_NDISWANBH, iDevID = -1, g_NpcapAdapterID = 0, pszBindName = {43CD8455-8291-4BA3-816F-C2EE497E0616}.
+[000039C4] 2019-03-28 15:52:56 --> getIntDevID
+[000039C4] 2019-03-28 15:52:56     _stscanf_s: iMatched = 0, iDevID = -1.
+[000039C4] 2019-03-28 15:52:56 <-- getIntDevID
+[000039C4] 2019-03-28 15:52:56     INetCfgComponent::GetPnpDevNodeId: executing, pszPndDevNodeId = USB\VID_2A70&PID_F00E&MI_00\6&384fed5&0&0000, iDevID = -1, g_NpcapAdapterID = 0, pszBindName = {595F0573-E5E0-4539-BA01-B28AD0EF999B}.
+[000039C4] 2019-03-28 15:52:56 --> getIntDevID
+[000039C4] 2019-03-28 15:52:56     _stscanf_s: iMatched = 0, iDevID = -1.
+[000039C4] 2019-03-28 15:52:56 <-- getIntDevID
+[000039C4] 2019-03-28 15:52:56     INetCfgComponent::GetPnpDevNodeId: executing, pszPndDevNodeId = SWD\MSRRAS\MS_NDISWANIPV6, iDevID = -1, g_NpcapAdapterID = 0, pszBindName = {621F5CB3-D5DF-4DC4-B8D8-502617AA744D}.
+[000039C4] 2019-03-28 15:52:56 --> getIntDevID
+[000039C4] 2019-03-28 15:52:56     _stscanf_s: iMatched = 0, iDevID = -1.
+[000039C4] 2019-03-28 15:52:56 <-- getIntDevID
+[000039C4] 2019-03-28 15:52:56     INetCfgComponent::GetPnpDevNodeId: executing, pszPndDevNodeId = ROOT\VMWARE\0000, iDevID = -1, g_NpcapAdapterID = 0, pszBindName = {68E13D86-E516-4942-8384-90F3F9DB8127}.
+[000039C4] 2019-03-28 15:52:56 --> getIntDevID
+[000039C4] 2019-03-28 15:52:56     _stscanf_s: iMatched = 0, iDevID = -1.
+[000039C4] 2019-03-28 15:52:56 <-- getIntDevID
+[000039C4] 2019-03-28 15:52:56     INetCfgComponent::GetPnpDevNodeId: executing, pszPndDevNodeId = ROOT\VMWARE\0001, iDevID = -1, g_NpcapAdapterID = 0, pszBindName = {6D23502F-D691-4137-86FC-2C81CF3AE3D6}.
+[000039C4] 2019-03-28 15:52:56 --> getIntDevID
+[000039C4] 2019-03-28 15:52:56     _stscanf_s: iMatched = 0, iDevID = -1.
+[000039C4] 2019-03-28 15:52:56 <-- getIntDevID
+[000039C4] 2019-03-28 15:52:56     INetCfgComponent::GetPnpDevNodeId: executing, pszPndDevNodeId = SWD\MSRRAS\MS_L2TPMINIPORT, iDevID = -1, g_NpcapAdapterID = 0, pszBindName = {7372A66F-C80B-41D3-91EE-C37D52C37464}.
+[000039C4] 2019-03-28 15:52:56 --> getIntDevID
+[000039C4] 2019-03-28 15:52:56     _stscanf_s: iMatched = 0, iDevID = -1.
+[000039C4] 2019-03-28 15:52:56 <-- getIntDevID
+[000039C4] 2019-03-28 15:52:56     INetCfgComponent::GetPnpDevNodeId: executing, pszPndDevNodeId = BTH\MS_BTHPAN\6&2613ca43&0&3, iDevID = -1, g_NpcapAdapterID = 0, pszBindName = {96B0610B-4DDE-4C85-A4BA-584813077BA5}.
+[000039C4] 2019-03-28 15:52:56 --> getIntDevID
+[000039C4] 2019-03-28 15:52:56     _stscanf_s: iMatched = 0, iDevID = -1.
+[000039C4] 2019-03-28 15:52:56 <-- getIntDevID
+[000039C4] 2019-03-28 15:52:56     INetCfgComponent::GetPnpDevNodeId: executing, pszPndDevNodeId = PCI\VEN_8086&DEV_A370&SUBSYS_00348086&REV_10\3&11583659&0&A3, iDevID = -1, g_NpcapAdapterID = 0, pszBindName = {A01789A2-F311-4C81-B7C7-BFA8F6938159}.
+[000039C4] 2019-03-28 15:52:56 --> getIntDevID
+[000039C4] 2019-03-28 15:52:56     _stscanf_s: iMatched = 0, iDevID = -1.
+[000039C4] 2019-03-28 15:52:56 <-- getIntDevID
+[000039C4] 2019-03-28 15:52:56     INetCfgComponent::GetPnpDevNodeId: executing, pszPndDevNodeId = SWD\MSRRAS\MS_SSTPMINIPORT, iDevID = -1, g_NpcapAdapterID = 0, pszBindName = {AD58EB93-CFC2-41CD-9168-CED5B1C3A959}.
+[000039C4] 2019-03-28 15:52:56 --> getIntDevID
+[000039C4] 2019-03-28 15:52:56     _stscanf_s: iMatched = 0, iDevID = -1.
+[000039C4] 2019-03-28 15:52:56 <-- getIntDevID
+[000039C4] 2019-03-28 15:52:56     INetCfgComponent::GetPnpDevNodeId: executing, pszPndDevNodeId = SWD\MSRRAS\MS_NDISWANIP, iDevID = -1, g_NpcapAdapterID = 0, pszBindName = {B869855E-D7AB-4A28-A333-F2DE7131965E}.
+[000039C4] 2019-03-28 15:52:56 --> getIntDevID
+[000039C4] 2019-03-28 15:52:56     _stscanf_s: iMatched = 0, iDevID = -1.
+[000039C4] 2019-03-28 15:52:56 <-- getIntDevID
+[000039C4] 2019-03-28 15:52:56     INetCfgComponent::GetPnpDevNodeId: executing, pszPndDevNodeId = ROOT\KDNIC\0000, iDevID = -1, g_NpcapAdapterID = 0, pszBindName = {C7AA0170-57EE-40E8-8C3C-46A47412438D}.
+[000039C4] 2019-03-28 15:52:56 --> getIntDevID
+[000039C4] 2019-03-28 15:52:56     _stscanf_s: iMatched = 0, iDevID = -1.
+[000039C4] 2019-03-28 15:52:56 <-- getIntDevID
+[000039C4] 2019-03-28 15:52:56     INetCfgComponent::GetPnpDevNodeId: executing, pszPndDevNodeId = PCI\VEN_8086&DEV_15BC&SUBSYS_E0001458&REV_10\3&11583659&0&FE, iDevID = -1, g_NpcapAdapterID = 0, pszBindName = {CD48E28C-001D-47CD-994A-BC08E25569E4}.
+[000039C4] 2019-03-28 15:52:56 --> getIntDevID
+[000039C4] 2019-03-28 15:52:56     _stscanf_s: iMatched = 1, iDevID = 0.
+[000039C4] 2019-03-28 15:52:56 <-- getIntDevID
+[000039C4] 2019-03-28 15:52:56     INetCfgComponent::GetPnpDevNodeId: executing, pszPndDevNodeId = ROOT\NET\0000, iDevID = 0, g_NpcapAdapterID = 0, pszBindName = {E21478EE-3E8B-4C20-A690-8D686786FD03}.
+[000039C4] 2019-03-28 15:52:56     INetCfgComponent::SetDisplayName: executing, g_NpcapAdapterID = iDevID = 0, pszBindName = {E21478EE-3E8B-4C20-A690-8D686786FD03}.
+[000039C4] 2019-03-28 15:52:56 --> AddFlagToRegistry
+[000039C4] 2019-03-28 15:52:56 <-- AddFlagToRegistry
+[000039C4] 2019-03-28 15:52:56 --> WriteStrToRegistry
+[000039C4] 2019-03-28 15:52:56     WriteStrToRegistry: executing, strSubKey = SOFTWARE\NPCAP, strValueName = LoopbackAdapter, strDeviceName = \Device\{E21478EE-3E8B-4C20-A690-8D686786FD03}, dwSamDesired = 0x00020206.
+[000039C4] 2019-03-28 15:52:56 <-- WriteStrToRegistry
+[000039C4] 2019-03-28 15:52:56 --> AddFlagToRegistry_Service
+[000039C4] 2019-03-28 15:52:56 <-- AddFlagToRegistry_Service
+[000039C4] 2019-03-28 15:52:56 --> WriteStrToRegistry
+[000039C4] 2019-03-28 15:52:56     WriteStrToRegistry: executing, strSubKey = SYSTEM\CurrentControlSet\Services\npcap\Parameters, strValueName = LoopbackAdapter, strDeviceName = \Device\{E21478EE-3E8B-4C20-A690-8D686786FD03}, dwSamDesired = 0x00020006.
+[000039C4] 2019-03-28 15:52:56 <-- WriteStrToRegistry
+[000039C4] 2019-03-28 15:52:56 --> RenameLoopbackNetwork
+[000039C4] 2019-03-28 15:52:56     CoInitializeSecurity: error, errCode = 0x80010119.
+[000039C4] 2019-03-28 15:52:56 <-- RenameLoopbackNetwork
+[000039C4] 2019-03-28 15:52:56     RenameLoopbackNetwork: error, pszBindName = {E21478EE-3E8B-4C20-A690-8D686786FD03}.
+[000039C4] 2019-03-28 15:52:56 <-- EnumerateComponents
+[000039C4] 2019-03-28 15:52:56     NetCfg::GetNetworkConfiguration: error.
+[000039C4] 2019-03-28 15:52:56 <-- RecordLoopbackDevice
+[000039C4] 2019-03-28 15:52:56 --> NetCfg::~NetCfg
+[000039C4] 2019-03-28 15:52:56 <-- NetCfg::~NetCfg
+[000039C4] 2019-03-28 15:52:56 --> COM::~COM
+[000039C4] 2019-03-28 15:52:56 <-- COM::~COM
+[000039C4] 2019-03-28 15:52:56 --> DoRenameLoopbackNetwork2
+[000039C4] 2019-03-28 15:52:56 --> snapshotInterfaceListAfterInstall
+[000039C4] 2019-03-28 15:52:56 --> executeCommand
+[000039C4] 2019-03-28 15:52:56     executeCommand: executing, strCmd = netsh.exe interface show interface.
+[000039C4] 2019-03-28 15:52:56     executeCommand: result = 
+管理员状态     状态           类型             接口名称
+-------------------------------------------------------------------------
+已禁用            已断开连接          专用               WLAN
+已禁用            已断开连接          专用               VMware Network Adapter VMnet1
+已禁用            已断开连接          专用               VMware Network Adapter VMnet8
+已启用            已连接            专用               以太网
+已启用            已连接            专用               以太网 3
+
+.
+[000039C4] 2019-03-28 15:52:56 <-- executeCommand
+[000039C4] 2019-03-28 15:52:56 --> getInterfaceNamesFromNetshOutput
+[000039C4] 2019-03-28 15:52:56     getInterfaceNamesFromNetshOutput: executing, strInterfaceName = WLAN.
+[000039C4] 2019-03-28 15:52:56     getInterfaceNamesFromNetshOutput: executing, strInterfaceName = VMware Network Adapter VMnet1.
+[000039C4] 2019-03-28 15:52:56     getInterfaceNamesFromNetshOutput: executing, strInterfaceName = VMware Network Adapter VMnet8.
+[000039C4] 2019-03-28 15:52:56     getInterfaceNamesFromNetshOutput: executing, strInterfaceName = 以太网.
+[000039C4] 2019-03-28 15:52:56     getInterfaceNamesFromNetshOutput: executing, strInterfaceName = 以太网 3.
+[000039C4] 2019-03-28 15:52:56 <-- getInterfaceNamesFromNetshOutput
+[000039C4] 2019-03-28 15:52:56 <-- snapshotInterfaceListAfterInstall
+[000039C4] 2019-03-28 15:52:56 --> getNpcapLoopbackAdapterName
+[000039C4] 2019-03-28 15:52:56     getNpcapLoopbackAdapterName: found the new interface, i = 4.
+[000039C4] 2019-03-28 15:52:56 <-- getNpcapLoopbackAdapterName
+[000039C4] 2019-03-28 15:52:56     getNpcapLoopbackAdapterName: executing, strOriginalInterfaceName = 以太网 3.
+[000039C4] 2019-03-28 15:52:56 --> changeLoopbackInterfaceMTU
+[000039C4] 2019-03-28 15:52:56 --> executeCommand
+[000039C4] 2019-03-28 15:52:56     executeCommand: executing, strCmd = netsh.exe interface ipv4 set subinterface "以太网 3" mtu=65536 store=persistent.
+[000039C4] 2019-03-28 15:52:56     executeCommand: result = 确定。
+
+.
+[000039C4] 2019-03-28 15:52:56 <-- executeCommand
+[000039C4] 2019-03-28 15:52:56 --> executeCommand
+[000039C4] 2019-03-28 15:52:56     executeCommand: executing, strCmd = netsh.exe interface ipv6 set subinterface "以太网 3" mtu=65536 store=persistent.
+[000039C4] 2019-03-28 15:52:56     executeCommand: result = 确定。
+
+.
+[000039C4] 2019-03-28 15:52:56 <-- executeCommand
+[000039C4] 2019-03-28 15:52:56 <-- changeLoopbackInterfaceMTU
+[000039C4] 2019-03-28 15:52:56 --> renameLoopbackInterface
+[000039C4] 2019-03-28 15:52:56 --> executeCommand
+[000039C4] 2019-03-28 15:52:56     executeCommand: executing, strCmd = netsh.exe interface set interface name="以太网 3" newname="Npcap Loopback Adapter".
+[000039C4] 2019-03-28 15:52:57     executeCommand: result = 
+.
+[000039C4] 2019-03-28 15:52:57 <-- executeCommand
+[000039C4] 2019-03-28 15:52:57 <-- renameLoopbackInterface
+[000039C4] 2019-03-28 15:52:57 <-- DoRenameLoopbackNetwork2
+[000039C4] 2019-03-28 15:52:57 --> SaveDevIDToFile
+[000039C4] 2019-03-28 15:52:57 --> GetConfigFilePath
+[000039C4] 2019-03-28 15:52:57     GetModuleFileName: succeed, strConfigPath = C:\Program Files\Npcap\loopback.ini.
+[000039C4] 2019-03-28 15:52:57 <-- GetConfigFilePath
+[000039C4] 2019-03-28 15:52:57 <-- SaveDevIDToFile
+[000039C4] 2019-03-28 15:52:57 <-- InstallLoopbackAdapter
+[000039C4] 2019-03-28 15:52:57     _tmain: succeed, nStatus = 0.
+[000039C4] 2019-03-28 15:52:57 <-- wmain

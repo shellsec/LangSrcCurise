@@ -1,0 +1,148 @@
+CreateDirectory: "C:\Program Files\Npcap" created
+File: overwriteflag=0, allowskipfilesflag=2, name="LICENSE"
+File: wrote 9486 to "C:\Program Files\Npcap\LICENSE"
+File: overwriteflag=0, allowskipfilesflag=2, name="DiagReport.bat"
+File: wrote 1034 to "C:\Program Files\Npcap\DiagReport.bat"
+File: overwriteflag=0, allowskipfilesflag=2, name="DiagReport.ps1"
+File: wrote 8908 to "C:\Program Files\Npcap\DiagReport.ps1"
+File: overwriteflag=0, allowskipfilesflag=2, name="NPFInstall.exe"
+File: wrote 274128 to "C:\Program Files\Npcap\NPFInstall.exe"
+Call: 865
+CreateDirectory: "C:\Program Files\Npcap" (1)
+Jump: 882
+File: overwriteflag=0, allowskipfilesflag=2, name="npcap.sys"
+File: wrote 81688 to "C:\Program Files\Npcap\npcap.sys"
+File: overwriteflag=0, allowskipfilesflag=2, name="npcap.cat"
+File: wrote 10798 to "C:\Program Files\Npcap\npcap.cat"
+File: overwriteflag=0, allowskipfilesflag=2, name="npcap.inf"
+File: wrote 8657 to "C:\Program Files\Npcap\npcap.inf"
+Jump: 890
+File: overwriteflag=0, allowskipfilesflag=2, name="npcap_wfp.inf"
+File: wrote 2404 to "C:\Program Files\Npcap\npcap_wfp.inf"
+CreateDirectory: "C:\Program Files\Npcap" (1)
+File: overwriteflag=0, allowskipfilesflag=2, name="Uninstall.exe"
+File: wrote 176728 to "C:\Program Files\Npcap\Uninstall.exe"
+detailprint: Installing NDIS6.x x64 driver for Win7, Win8 and Win10
+Call: 805
+Jump: 817
+CreateDirectory: "C:\Windows\system32\Npcap" (1)
+CreateDirectory: "C:\Windows\system32\Npcap" created
+File: overwriteflag=0, allowskipfilesflag=2, name="wpcap.dll"
+File: wrote 330960 to "C:\Windows\system32\Npcap\wpcap.dll"
+File: overwriteflag=0, allowskipfilesflag=2, name="Packet.dll"
+File: wrote 165584 to "C:\Windows\system32\Npcap\Packet.dll"
+File: overwriteflag=0, allowskipfilesflag=2, name="NpcapHelper.exe"
+File: wrote 102608 to "C:\Windows\system32\Npcap\NpcapHelper.exe"
+File: overwriteflag=0, allowskipfilesflag=2, name="WlanHelper.exe"
+File: wrote 64208 to "C:\Windows\system32\Npcap\WlanHelper.exe"
+Call: 1233
+File: overwriteflag=1, allowskipfilesflag=0, name="C:\Users\langzi\AppData\Local\Temp\nsy3AC0.tmp\System.dll"
+File: skipped: "C:\Users\langzi\AppData\Local\Temp\nsy3AC0.tmp\System.dll" (overwriteflag=1)
+Call: 822
+Jump: 834
+CreateDirectory: "C:\Windows\system32\Npcap" (1)
+CreateDirectory: "C:\Windows\system32\Npcap" created
+File: overwriteflag=0, allowskipfilesflag=2, name="wpcap.dll"
+File: wrote 376016 to "C:\Windows\system32\Npcap\wpcap.dll"
+File: overwriteflag=0, allowskipfilesflag=2, name="Packet.dll"
+File: wrote 190672 to "C:\Windows\system32\Npcap\Packet.dll"
+File: overwriteflag=0, allowskipfilesflag=2, name="NpcapHelper.exe"
+File: wrote 116432 to "C:\Windows\system32\Npcap\NpcapHelper.exe"
+File: overwriteflag=0, allowskipfilesflag=2, name="WlanHelper.exe"
+File: wrote 74448 to "C:\Windows\system32\Npcap\WlanHelper.exe"
+Call: 963
+WriteRegDWORD: "HKEY_LOCAL_MACHINE\Software\Npcap" "AdminOnly"="0x00000000"
+WriteRegDWORD: "HKEY_LOCAL_MACHINE\Software\Npcap" "WinPcapCompatible"="0x00000000"
+WriteRegStr: "HKEY_LOCAL_MACHINE\Software\Npcap" ""="C:\Program Files\Npcap"
+Call: 1233
+File: overwriteflag=1, allowskipfilesflag=0, name="C:\Users\langzi\AppData\Local\Temp\nsy3AC0.tmp\System.dll"
+File: skipped: "C:\Users\langzi\AppData\Local\Temp\nsy3AC0.tmp\System.dll" (overwriteflag=1)
+WriteRegStr: "HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\NpcapInst" "UninstallString"=""C:\Program Files\Npcap\uninstall.exe""
+WriteRegStr: "HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\NpcapInst" "QuietUninstallString"=""C:\Program Files\Npcap\uninstall.exe" /S"
+WriteRegStr: "HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\NpcapInst" "DisplayIcon"="C:\Program Files\Npcap\uninstall.exe"
+WriteRegStr: "HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\NpcapInst" "UninstallPath"="C:\Program Files\Npcap"
+Call: 717
+Call: 891
+CreateDirectory: "C:\Users\langzi\AppData\Local\Temp" (1)
+File: overwriteflag=0, allowskipfilesflag=2, name="Insecure-SHA1.cer"
+File: wrote 1320 to "C:\Users\langzi\AppData\Local\Temp\Insecure-SHA1.cer"
+Call: 1233
+File: overwriteflag=1, allowskipfilesflag=2, name="C:\Users\langzi\AppData\Local\Temp\nsy3AC0.tmp\nsExec.dll"
+File: skipped: "C:\Users\langzi\AppData\Local\Temp\nsy3AC0.tmp\nsExec.dll" (overwriteflag=1)
+CreateDirectory: "C:\Users\langzi\AppData\Local\Temp" (1)
+File: overwriteflag=0, allowskipfilesflag=2, name="Insecure-EV.cer"
+File: wrote 1526 to "C:\Users\langzi\AppData\Local\Temp\Insecure-EV.cer"
+Call: 1233
+File: overwriteflag=1, allowskipfilesflag=0, name="C:\Users\langzi\AppData\Local\Temp\nsy3AC0.tmp\nsExec.dll"
+File: skipped: "C:\Users\langzi\AppData\Local\Temp\nsy3AC0.tmp\nsExec.dll" (overwriteflag=1)
+Call: 1233
+File: overwriteflag=1, allowskipfilesflag=0, name="C:\Users\langzi\AppData\Local\Temp\nsy3AC0.tmp\nsExec.dll"
+File: skipped: "C:\Users\langzi\AppData\Local\Temp\nsy3AC0.tmp\nsExec.dll" (overwriteflag=1)
+detailprint: The cache in driver store was cleared
+Call: 1233
+File: overwriteflag=1, allowskipfilesflag=0, name="C:\Users\langzi\AppData\Local\Temp\nsy3AC0.tmp\nsExec.dll"
+File: skipped: "C:\Users\langzi\AppData\Local\Temp\nsy3AC0.tmp\nsExec.dll" (overwriteflag=1)
+Call: 1233
+File: overwriteflag=1, allowskipfilesflag=0, name="C:\Users\langzi\AppData\Local\Temp\nsy3AC0.tmp\nsExec.dll"
+File: skipped: "C:\Users\langzi\AppData\Local\Temp\nsy3AC0.tmp\nsExec.dll" (overwriteflag=1)
+detailprint: The npcap service for Win7, Win8 and Win10 was successfully created
+Jump: 937
+detailprint: Installing Npcap Loopback Adapter
+Call: 1233
+File: overwriteflag=1, allowskipfilesflag=0, name="C:\Users\langzi\AppData\Local\Temp\nsy3AC0.tmp\nsExec.dll"
+File: skipped: "C:\Users\langzi\AppData\Local\Temp\nsy3AC0.tmp\nsExec.dll" (overwriteflag=1)
+detailprint: Writing service options to registry
+Call: 1002
+Jump: 1011
+Call: 974
+WriteRegDWORD: "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\npcap" "Start"="0x00000001"
+WriteRegDWORD: "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\npcap\Parameters" "LoopbackSupport"="0x00000001"
+Jump: 980
+WriteRegDWORD: "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\npcap\Parameters" "DltNull"="0x00000001"
+Jump: 984
+WriteRegDWORD: "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\npcap\Parameters" "AdminOnly"="0x00000000"
+WriteRegDWORD: "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\npcap\Parameters" "Dot11Support"="0x00000000"
+WriteRegDWORD: "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\npcap\Parameters" "VlanSupport"="0x00000000"
+WriteRegDWORD: "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\npcap\Parameters" "WinPcapCompatible"="0x00000000"
+Call: 1115
+Jump: 1124
+WriteRegDWORD: "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\npcap" "Start"="0x00000001"
+WriteRegDWORD: "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\npcap_wifi" "Start"="0x00000004"
+Call: 1057
+Jump: 1080
+detailprint: Starting the npcap driver
+Call: 1233
+File: overwriteflag=1, allowskipfilesflag=0, name="C:\Users\langzi\AppData\Local\Temp\nsy3AC0.tmp\nsExec.dll"
+File: skipped: "C:\Users\langzi\AppData\Local\Temp\nsy3AC0.tmp\nsExec.dll" (overwriteflag=1)
+Call: 1233
+File: overwriteflag=1, allowskipfilesflag=0, name="C:\Users\langzi\AppData\Local\Temp\nsy3AC0.tmp\nsExec.dll"
+File: skipped: "C:\Users\langzi\AppData\Local\Temp\nsy3AC0.tmp\nsExec.dll" (overwriteflag=1)
+Call: 1233
+File: overwriteflag=1, allowskipfilesflag=0, name="C:\Users\langzi\AppData\Local\Temp\nsy3AC0.tmp\nsExec.dll"
+File: skipped: "C:\Users\langzi\AppData\Local\Temp\nsy3AC0.tmp\nsExec.dll" (overwriteflag=1)
+Jump: 1213
+WriteRegStr: "HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\NpcapInst" "DisplayName"="Npcap 0.99-r2"
+WriteRegStr: "HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\NpcapInst" "DisplayVersion"="0.99-r2"
+WriteRegStr: "HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\NpcapInst" "Publisher"="Nmap Project"
+WriteRegStr: "HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\NpcapInst" "URLInfoAbout"="http://www.npcap.org"
+WriteRegStr: "HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\NpcapInst" "URLUpdateInfo"="http://www.npcap.org"
+WriteRegStr: "HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\NpcapInst" "VersionMajor"="0"
+WriteRegStr: "HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\NpcapInst" "VersionMinor"="1"
+WriteRegDWORD: "HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\NpcapInst" "NoModify"="0x00000001"
+WriteRegDWORD: "HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\NpcapInst" "NoRepair"="0x00000001"
+detailprint: Finish setting system restore point: Before installation of Npcap 0.99-r2
+Call: 1233
+File: overwriteflag=1, allowskipfilesflag=2, name="C:\Users\langzi\AppData\Local\Temp\nsy3AC0.tmp\SysRestore.dll"
+File: skipped: "C:\Users\langzi\AppData\Local\Temp\nsy3AC0.tmp\SysRestore.dll" (overwriteflag=1)
+Jump: 61
+Call: 1233
+File: overwriteflag=1, allowskipfilesflag=0, name="C:\Users\langzi\AppData\Local\Temp\nsy3AC0.tmp\InstallOptions.dll"
+File: skipped: "C:\Users\langzi\AppData\Local\Temp\nsy3AC0.tmp\InstallOptions.dll" (overwriteflag=1)
+Delete: DeleteFile("C:\Users\langzi\AppData\Local\Temp\nsy3AC0.tmp\final.ini")
+Delete: DeleteFile("C:\Users\langzi\AppData\Local\Temp\nsy3AC0.tmp\InstallOptions.dll")
+Delete: DeleteFile("C:\Users\langzi\AppData\Local\Temp\nsy3AC0.tmp\modern-header.bmp")
+Delete: DeleteFile("C:\Users\langzi\AppData\Local\Temp\nsy3AC0.tmp\nsExec.dll")
+Delete: DeleteFile("C:\Users\langzi\AppData\Local\Temp\nsy3AC0.tmp\options.ini")
+Delete: DeleteFile("C:\Users\langzi\AppData\Local\Temp\nsy3AC0.tmp\SysRestore.dll")
+Delete: DeleteFile("C:\Users\langzi\AppData\Local\Temp\nsy3AC0.tmp\System.dll")
+RMDir: RemoveDirectory("C:\Users\langzi\AppData\Local\Temp\nsy3AC0.tmp\")

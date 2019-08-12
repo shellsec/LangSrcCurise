@@ -1,0 +1,5 @@
+# flake8: noqa
+from pyecharts_jupyter_installer._version import __version__
+from pyecharts_jupyter_installer._version import __author__
+
+from pyecharts_jupyter_installer.jupyter_install import install_cmd_for
