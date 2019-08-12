@@ -73,7 +73,6 @@ def Get_Url_Ip(domain):
         result = loop.run_until_complete(f)
         return result[0].host
     except Exception as e:
-        print(e)
         return None
 
 

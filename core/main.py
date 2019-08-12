@@ -296,7 +296,7 @@ def Sub_Brute(Sub_Domains):
         if res != []:
             with ProcessPoolExecutor(max_workers=pool_count) as pool:
                 result = pool.map(Add_Data_To_Url, res)
-        time.sleep(60)
+        time.sleep(360)
 
 
 def Run_Crawl(Domains):
