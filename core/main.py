@@ -55,87 +55,103 @@ def get_host(url):
 
 
 def Add_Data_To_Url(url):
+    try:
+        ip = get_host(url)
+        if ip == '获取失败':
+            return
+        # print('[+ Domain UrlIP] IP解析 --> {}  IP --> {}'.format(url, ip))
+        test_url = list(URL.objects.filter(url=url))
+        # 如果数据库有这个网站的话，就直接退出
+        if test_url != []:
+            return
+
         try:
-            ip = get_host(url)
-            if ip == '获取失败':
-                return
-            # print('[+ Domain UrlIP] IP解析 --> {}  IP --> {}'.format(url, ip))
-            test_url = list(URL.objects.filter(url=url))
-            if test_url != []:
-                return
-            try:
-                Test_Other_Url = Other_Url.objects.filter(url=url)
-                if list(Test_Other_Url) == []:
-                    res = Get_Url_Info(url).get_info()
-                    res_url = res.get('url')
-                    res_title = res.get('title')
-                    res_power = res.get('power')
-                    res_server = res.get('server')
-                    res_status = res.get('status')
-                    res_ip = ip
-                    if int(res_status) in Alive_Status:
-                        Other_Url.objects.create(url=res_url, title=res_title, power=res_power, server=res_server,
-                                                 status=res_status,ip=res_ip)
-            except Exception as e:
-                print('错误代码 [29] {}'.format(str(e)))
-                Error_Log.objects.create(url=url, error='错误代码 [29] {}'.format(str(e)))
-
-            try:
-                URL.objects.create(url=url,ip=ip)
-                try:
-                    Show_contents = Get_Url_Info(url).Requests()[0]
-                    Cont = Content()
-                    Cont.url = url
-                    Cont.content = Show_contents
-                    Cont.save()
-                    Show_Data.objects.create(url=url, ip=ip, content=Cont)
-                except Exception as e:
-                    print('错误代码 [08] {}'.format(str(e)))
-                    Error_Log.objects.create(url='外键添加错误', error='错误代码 [08] {}'.format(str(e)))
-
-
-
-                BA = Domains.objects.all()
-                ALL_DOMAINS = [x.get('url') for x in BA.values()]
-
-                # print('所有域名：{}'.format(ALL_DOMAINS))
-                This_Sub = [x for x in ALL_DOMAINS if x in url]
-                # # 获取到当前子域名属于的主域名
-                # print('传入域名:{}'.format(url))
-                # print('获取域名:{}'.format(This_Sub))
-
-                try:
-                    if This_Sub != []:
-                        Domain_Count = Domains.objects.filter(url=This_Sub[0])[0]
-                        counts = int(Domain_Count.counts)+1
-                        Domain_Count.counts = counts
-                        Domain_Count.save()
-                except Exception as e:
-                    print('错误代码 [15] {}'.format(str(e)))
-                    Error_Log.objects.create(url=url+'|'+This_Sub, error='错误代码 [15] {}'.format(str(e)))
-            except Exception as e:
-                print('错误代码 [22] {}'.format(str(e)))
-                Error_Log.objects.create(url=url, error='错误代码 [22] {}'.format(str(e)))
-
-            test_ip = list(IP.objects.filter(ip=ip))
-            # 这里开始判断数据库中是否有这个ip，并且先添加然后修改(防止重复浪费资源)
-            if test_ip != []:
-                test_ip_0 = IP.objects.filter(ip=ip)[0]
-                # 这里判断数据中IP时候存在，如果存在并且有扫描状态，就直接中断操作
-                if test_ip_0.get == '是' or test_ip_0.get == '中':
-                    return
-            else:
-                try:
-                    IP_Res = Get_Ip_Info(ip)
-                    area = IP_Res.get_ip_address(ip)
-                    IP.objects.create(ip=ip, servers='None', host_type='None', alive_urls='None', area=area)
-                    # 这里先添加数据，异步执行获取到的数据作为结果给下个进程使用
-                except Exception as e:
-                    print('错误代码 [21] {}'.format(str(e)))
-                    Error_Log.objects.create(url=url, error='错误代码 [21] {}'.format(str(e)))
+            Test_Other_Url = Other_Url.objects.filter(url=url)
+            # 判断网络资产表是否有这个数据，如果没有的话，就添加进去
+            if list(Test_Other_Url) == []:
+                res = Get_Url_Info(url).get_info()
+                res_url = res.get('url')
+                res_title = res.get('title')
+                res_power = res.get('power')
+                res_server = res.get('server')
+                res_status = res.get('status')
+                res_ip = ip
+                if int(res_status) in Alive_Status:
+                    # 添加的标准是 在入库状态码内
+                    Other_Url.objects.create(url=res_url, title=res_title, power=res_power, server=res_server,
+                                             status=res_status,ip=res_ip)
         except Exception as e:
-            print('错误代码 [30] {}'.format(str(e)))
-            Error_Log.objects.create(url=url, error='错误代码 [30] {}'.format(str(e)))
+            print('错误代码 [29] {}'.format(str(e)))
+            Error_Log.objects.create(url=url, error='错误代码 [29] {}'.format(str(e)))
+
+        try:
+            res = Get_Url_Info(url).get_info()
+            res_status = res.get('status')
+            # 再次获取状态码，判断是否符合入库状态，以保证数据统一
+            if int(res_status) not in Alive_Status:
+                return
+
+            # 接下来可以进行数据索引唯一统一
+
+            URL.objects.create(url=url,ip=ip)
+            # 添加 网址索引
+            try:
+                Show_contents = Get_Url_Info(url).Requests()[0]
+                Cont = Content()
+                Cont.url = url
+                Cont.content = Show_contents
+                Cont.save()
+                Show_Data.objects.create(url=url, ip=ip, content=Cont)
+                # 添加网页内容，数据展示
+            except Exception as e:
+                print('错误代码 [08] {}'.format(str(e)))
+                Error_Log.objects.create(url='外键添加错误', error='错误代码 [08] {}'.format(str(e)))
+
+
+
+            BA = Domains.objects.all()
+            ALL_DOMAINS = [x.get('url') for x in BA.values()]
+            # 所有监控域名
+            # print('所有域名：{}'.format(ALL_DOMAINS))
+            This_Sub = [x for x in ALL_DOMAINS if x in url]
+            # 获取到当前子域名属于的主域名
+
+
+
+            try:
+                # 尝试进行域名总数据获取检测
+                if This_Sub != []:
+                    Domain_Count = Domains.objects.filter(url=This_Sub[0])[0]
+                    counts = int(Domain_Count.counts)+1
+                    Domain_Count.counts = counts
+                    Domain_Count.save()
+            except Exception as e:
+                print('错误代码 [15] {}'.format(str(e)))
+                Error_Log.objects.create(url=url+'|'+This_Sub, error='错误代码 [15] {}'.format(str(e)))
+        except Exception as e:
+            print('错误代码 [22] {}'.format(str(e)))
+            Error_Log.objects.create(url=url, error='错误代码 [22] {}'.format(str(e)))
+
+        test_ip = list(IP.objects.filter(ip=ip))
+        # 开始添加ip 维护ip统一
+        # 这里开始判断数据库中是否有这个ip，并且先添加然后修改(防止重复浪费资源)
+        if test_ip != []:
+            test_ip_0 = IP.objects.filter(ip=ip)[0]
+            # 这里判断数据中IP时候存在，如果存在并且有扫描状态，就直接中断操作
+            if test_ip_0.get == '是' or test_ip_0.get == '中':
+                return
+        if test_ip ==[]:
+            try:
+                IP_Res = Get_Ip_Info(ip)
+                area = IP_Res.get_ip_address(ip)
+                IP.objects.create(ip=ip, servers='None', host_type='None', alive_urls='None', area=area)
+                # 这里先添加数据，异步执行获取到的数据作为结果给下个进程使用
+            except Exception as e:
+                print('错误代码 [21] {}'.format(str(e)))
+                Error_Log.objects.create(url=url, error='错误代码 [21] {}'.format(str(e)))
+    except Exception as e:
+        print('错误代码 [30] {}'.format(str(e)))
+        Error_Log.objects.create(url=url, error='错误代码 [30] {}'.format(str(e)))
 
 
 
@@ -296,6 +312,7 @@ def Sub_Brute(Sub_Domains):
         if res != []:
             with ProcessPoolExecutor(max_workers=pool_count) as pool:
                 result = pool.map(Add_Data_To_Url, res)
+        # 每爆破一个子域名，歇会儿
         time.sleep(360)
 
 
